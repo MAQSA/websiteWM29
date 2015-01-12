@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+      <link rel="shortcut icon" href="/favicon.ico" />
+	 <link rel="stylesheet" href="styles/layout.css" type="text/css" />
+     <title>PLAYERS</title>     
+		
+			 
+<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	 <script type="text/javascript" src="js/aj2.js"></script>
+     <script language="javascript" type="text/javascript" src="js/jquery.easing.js"></script>
+     <script language="javascript" type="text/javascript" src="js/script.js"></script>   
+
+<body id="top">
+<div class="wrapper col1">
+<div id="head"> </div>
+<script type="text/javascript">
+
+ $(document).ready( function(){	
+		// buttons for next and previous item						 
+		var buttons = { previous:$('#jslidernews1 .button-previous') ,
+						next:$('#jslidernews1 .button-next') };			
+		 $('#jslidernews1').lofJSidernews( { interval : 4000,
+											direction		: 'opacitys',	
+											easing			: 'easeInOutExpo',
+											duration		: 1200,
+											auto		 	: true,
+											maxItemDisplay  : 4,
+											navPosition     : 'horizontal', // horizontal
+											navigatorHeight : 32,
+											navigatorWidth  : 80,
+											mainWidth		: 980,
+											buttons			: buttons } );	
+	});
+</script>
+
+</head>
+<div class="wrapper col4">
+  <div id="topnav">
+    <ul>
+      <li><a href="index.html">Головна сторінка</a></li>
+      <li><a class="active" href="players.html">УЧАСНИКИ Wrestlemania 29</a></li>
+      <li><a href="#">ЧЕМПІОНИ WWE</a>
+	  <ul>
+          <li><a href="titul_wwe.html">WWE Championship</a></li>
+          <li><a href="titul_heavy.html">Heavyweight Championship</a></li>
+             </ul>
+	   </li>
+      <li><a href="news.html">НОВОСТІ</a></li>
+    </ul>
+
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col5">
+
+  <div id="homecontent-top" >
+    
+    
+      <!------------------------------------- THE CONTENT ------------------------------------------------->
+<div id="jslidernews1" class="lof-slidecontent" style="width:955px; height:600px;">
+	<div class="preload"></div>
+    		 <!-- MAIN CONTENT --> 
+              <div class="main-slider-content" style="width:500px; height:600px;">
+                <ul class="sliders-wrap-inner">
+                    <li>
+                            <img src="gallery/rock.jpg" >           
+                          <div class="slider-description">
+                      
+                            <h4>The Rock</h4>
+                           </div>
+                    </li> 
+                   <li>
+                      <img src="gallery/cena.png" >           
+                         <div class="slider-description">
+                           <h4>Jonh Cena</h4>
+                          </div>
+                    </li> 
+                   <li>
+                      <img src="gallery/h.png">            
+                        <div class="slider-description">
+                           <h4>Triple H</h4>
+                          </div>
+      
+                    </li> 
+                    <li>
+                      <img src="gallery/punk.png" >            
+							<div class="slider-description">
+                           <h4>CM PUNK</h4>
+                          </div>
+ 
+                    </li> 
+                  </ul>  	
+            </div>
+ 		   <!-- END MAIN CONTENT --> 
+           <!-- NAVIGATOR -->
+           	<div class="navigator-content" style = "height:150px;">
+			
+                                    <div class="button-next">Вперед</div>
+                  <div class="navigator-wrapper" >
+                        <ul class="navigator-wrap-inner" >
+                           <li><img src="gallery/m_rock.png" /></li>
+                           <li><img src="gallery/m_cena.png"  /></li>
+                           <li><img src="gallery/m_h.png" /></li>
+                           <li><img src="gallery/m_pank.png"  /></li>    
+						   
+                        </ul>
+                  </div>
+                  <div  class="button-previous">Назад</div>
+             </div> 
+          <!----------------- END OF NAVIGATOR --------------------->
+			
+ </div> 
+
+
+<!------------------------------------- END OF THE CONTENT ------------------------------------------------->
+
+    
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="wrapper col8">
+  <div id="copyright">
+      <p class="fl_right">Міжнародний конкурс із Web-дизайну та комп'ютерної графіки серед студентів та учнів</p>
+    <br class="clear" />
+  </div>
+</div>
+</body>
+</html>
